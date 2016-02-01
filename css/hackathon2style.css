@@ -1,0 +1,47 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: #FFFAD5;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#header {
+ color: #DB9E36;
+ background-color: #105B63;
+ padding: 20px;
+ position: relative;
+}
+
+h1 {
+  display: inline;
+}
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+ul {
+  margin: 0;
+}
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font: 16px;
+  color: #DB9E36;
+}
+
+#banner {
+  background-image: url(https://www.petfinder.com/wp-content/uploads/2012/11/102107675-dog-park-bullies-632x475-632x353.jpg) no-repeat center;
+  top: 96px;
+  height: 353px;
+  margin: 0 auto;
+}
