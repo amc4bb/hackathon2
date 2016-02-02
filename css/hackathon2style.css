@@ -20,6 +20,12 @@ a:hover, a:active {
   position: relative;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 #header {
  color: #DB9E36;
  background-color: #105B63;
@@ -82,9 +88,9 @@ ul {
   margin:0 auto 20px auto;
   display:inline-block;
   position:relative;
-  border-top: solid #82A88F 1px;
-  border-bottom: solid #82A88F 1px;
+  border-bottom: solid #BD4932 2px;
 }
+
 .col-single, .col-double, .col-triple {
   float: left;
   margin-right: 2%;
