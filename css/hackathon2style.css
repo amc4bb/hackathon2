@@ -40,8 +40,22 @@ ul {
 }
 
 #banner {
-  background-image: url(https://www.petfinder.com/wp-content/uploads/2012/11/102107675-dog-park-bullies-632x475-632x353.jpg) no-repeat center;
-  top: 96px;
-  height: 353px;
-  margin: 0 auto;
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #DB9E36;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+#bannerText {
+  font-weight: bold;
+  color: #DB9E36;
+  padding: 30px;
+  border: 3px solid #DB9E36;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
