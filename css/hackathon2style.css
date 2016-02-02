@@ -3,6 +3,16 @@ body {
   background-color: #FFFAD5;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .wrap {
   width: 100%;
   max-width: 960px;
@@ -14,6 +24,13 @@ body {
  color: #DB9E36;
  background-color: #105B63;
  padding: 20px;
+ position: relative;
+}
+
+#footer {
+ color: #DB9E36;
+ background-color: #105B63;
+ padding: 10px;
  position: relative;
 }
 
@@ -58,4 +75,32 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+}
+
+.row {
+  width: 100%;
+  margin:0 auto 20px auto;
+  display:inline-block;
+  position:relative;
+  border-top: solid #82A88F 1px;
+  border-bottom: solid #82A88F 1px;
+}
+.col-single, .col-double, .col-triple {
+  float: left;
+  margin-right: 2%;
+}
+
+.row .col-single:last-child, .row .col-double:last-child, .row .col-triple:last-child {
+  margin-right: 0;
+}
+
+.col-single  {
+  width: 100%;
+}
+.col-double  {
+  width: 49%;
+}
+
+.col-triple  {
+  width: 32%;
 }
